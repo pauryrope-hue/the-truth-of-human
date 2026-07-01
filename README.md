@@ -836,6 +836,410 @@ class UIMUnifiedObject:
         )
 
         return "\n".join(report)
+================================================================================
+UIM v7.5 Generated Data Text Document
+================================================================================
+
+Boundary:
+This is a conceptual UIM simulation artifact, not a mathematical proof.
+It does not prove, solve, or resolve any Millennium Prize Problem.
+
+This text document consolidates the generated runtime data:
+- Integrated master report
+- CSV result data
+- JSON result data
+- Single-object artifact metadata
+- Energy plot file reference
+
+================================================================================
+
+
+================================================================================
+SECTION 1: INTEGRATED MASTER REPORT
+================================================================================
+
+================================================================================
+UIM Unified Intelligence Core v7.5-refined-runtime
+Ultimate Integrated Millennium Diagnostics Report
+--------------------------------------------------------------------------------
+Boundary:
+  This is a conceptual UIM simulation report, not a mathematical proof.
+  No equivalence theorem is established between UIM convergence and the original problems.
+  Therefore, these results are model diagnostics, not mathematical solutions.
+
+Self-Check:
+  Passed                     : True
+  Mode A Fixed-Point Error   : 0.0000000000e+00
+  Mode B Fixed-Point Error   : 0.0000000000e+00
+  Deterministic Replay Error : 0.0000000000e+00
+
+Problem Labels:
+  [P_vs_NP]
+    Mode                         : A
+    Description                  : metaphorical dissipation of inconsistent paths
+    Status                       : STRONGLY_DISSIPATED_WITHIN_MODEL
+    Initial Target Energy        : 609.2047049295
+    Final Target Energy          : 4.7414930010e-01
+    Convergence Rate             : 0.9992216913
+    Max Abs Deviation            : 3.1014431805e-02
+    Fixed-Range Phase Entropy    : 1.1460562791
+    Energy Monotonic             : True
+    Model Verification           : STRONGLY_DISSIPATED_WITHIN_MODEL
+    Formal Proof                 : False
+    Divergence Detected          : False
+    First Divergent g            : None
+    Boundary Note                : No divergence detected in tested g range.
+    Note                         : Conceptual Mode A diagnostic only; not a proof of P vs NP.
+
+  [Riemann]
+    Mode                         : B
+    Description                  : visual attraction toward Re = 0.5
+    Status                       : CONVERGED_WITHIN_MODEL
+    Initial Target Energy        : 487.4437015230
+    Final Target Energy          : 6.0785112680e-13
+    Convergence Rate             : 1.0000000000
+    Max Abs Deviation            : 6.3796376948e-08
+    Fixed-Range Phase Entropy    : 1.0887711445
+    Energy Monotonic             : True
+    Model Verification           : CONVERGED_WITHIN_MODEL
+    Formal Proof                 : False
+    Divergence Detected          : False
+    First Divergent g            : None
+    Boundary Note                : No divergence detected in tested g range.
+    Note                         : Conceptual Mode B diagnostic only; not a proof of the Riemann Hypothesis.
+
+  [Navier_Stokes]
+    Mode                         : B
+    Description                  : relaxation of informational congestion
+    Status                       : CONVERGED_WITHIN_MODEL
+    Initial Target Energy        : 487.4437015230
+    Final Target Energy          : 6.0785112680e-13
+    Convergence Rate             : 1.0000000000
+    Max Abs Deviation            : 6.3796376948e-08
+    Fixed-Range Phase Entropy    : 1.0887711445
+    Energy Monotonic             : True
+    Model Verification           : CONVERGED_WITHIN_MODEL
+    Formal Proof                 : False
+    Divergence Detected          : False
+    First Divergent g            : None
+    Boundary Note                : No divergence detected in tested g range.
+    Note                         : Conceptual Mode B diagnostic only; not a proof of Navier-Stokes regularity.
+
+  [Yang_Mills]
+    Mode                         : B
+    Description                  : structural stabilization analogy
+    Status                       : CONVERGED_WITHIN_MODEL
+    Initial Target Energy        : 487.4437015230
+    Final Target Energy          : 6.0785112680e-13
+    Convergence Rate             : 1.0000000000
+    Max Abs Deviation            : 6.3796376948e-08
+    Fixed-Range Phase Entropy    : 1.0887711445
+    Energy Monotonic             : True
+    Model Verification           : CONVERGED_WITHIN_MODEL
+    Formal Proof                 : False
+    Divergence Detected          : False
+    First Divergent g            : None
+    Boundary Note                : No divergence detected in tested g range.
+    Note                         : Conceptual Mode B diagnostic only; not a proof of Yang-Mills mass gap.
+
+  [BSD]
+    Mode                         : B
+    Description                  : simplified coherence alignment
+    Status                       : CONVERGED_WITHIN_MODEL
+    Initial Target Energy        : 487.4437015230
+    Final Target Energy          : 6.0785112680e-13
+    Convergence Rate             : 1.0000000000
+    Max Abs Deviation            : 6.3796376948e-08
+    Fixed-Range Phase Entropy    : 1.0887711445
+    Energy Monotonic             : True
+    Model Verification           : CONVERGED_WITHIN_MODEL
+    Formal Proof                 : False
+    Divergence Detected          : False
+    First Divergent g            : None
+    Boundary Note                : No divergence detected in tested g range.
+    Note                         : Conceptual Mode B diagnostic only; not a proof of Birch and Swinnerton-Dyer.
+
+  [Hodge]
+    Mode                         : B
+    Description                  : topological consistency alignment analogy
+    Status                       : CONVERGED_WITHIN_MODEL
+    Initial Target Energy        : 487.4437015230
+    Final Target Energy          : 6.0785112680e-13
+    Convergence Rate             : 1.0000000000
+    Max Abs Deviation            : 6.3796376948e-08
+    Fixed-Range Phase Entropy    : 1.0887711445
+    Energy Monotonic             : True
+    Model Verification           : CONVERGED_WITHIN_MODEL
+    Formal Proof                 : False
+    Divergence Detected          : False
+    First Divergent g            : None
+    Boundary Note                : No divergence detected in tested g range.
+    Note                         : Conceptual Mode B diagnostic only; not a proof of the Hodge conjecture.
+
+Interpretation:
+  Mode A is asymptotically dissipative; finite-step residual energy may remain.
+  Mode B labels share the same underlying dynamics unless separate targets or parameters are assigned.
+  Stability-boundary sweeps inspect this designed kernel only and do not search for mathematical counterexamples.
+================================================================================
+
+================================================================================
+SECTION 2: CSV RESULT DATA
+================================================================================
+
+label,mode,description,status,initial_target_energy,final_target_energy,convergence_rate,max_abs_deviation,mean_abs_deviation,final_entropy_real,final_entropy_imag,final_entropy_abs,final_fixed_range_phase_entropy,monotonic_target_energy,num_energy_increases,note
+P_vs_NP,A,metaphorical dissipation of inconsistent paths,STRONGLY_DISSIPATED_WITHIN_MODEL,609.2047049295322,0.47414930009719713,0.9992216913358342,0.03101443180456708,0.030783266556448148,2.6751801849853387,2.6404387610197038,0.4512985484754398,1.1460562791181397,True,0,Conceptual Mode A diagnostic only; not a proof of P vs NP.
+Riemann,B,visual attraction toward Re = 0.5,CONVERGED_WITHIN_MODEL,487.44370152298904,6.078511267984012e-13,0.9999999999999987,6.379637694783054e-08,3.045292266962231e-08,0.7060899014473441,2.959158045070936,2.750916517703602,1.0887711445213917,True,0,Conceptual Mode B diagnostic only; not a proof of the Riemann Hypothesis.
+Navier_Stokes,B,relaxation of informational congestion,CONVERGED_WITHIN_MODEL,487.44370152298904,6.078511267984012e-13,0.9999999999999987,6.379637694783054e-08,3.045292266962231e-08,0.7060899014473441,2.959158045070936,2.750916517703602,1.0887711445213917,True,0,Conceptual Mode B diagnostic only; not a proof of Navier-Stokes regularity.
+Yang_Mills,B,structural stabilization analogy,CONVERGED_WITHIN_MODEL,487.44370152298904,6.078511267984012e-13,0.9999999999999987,6.379637694783054e-08,3.045292266962231e-08,0.7060899014473441,2.959158045070936,2.750916517703602,1.0887711445213917,True,0,Conceptual Mode B diagnostic only; not a proof of Yang-Mills mass gap.
+BSD,B,simplified coherence alignment,CONVERGED_WITHIN_MODEL,487.44370152298904,6.078511267984012e-13,0.9999999999999987,6.379637694783054e-08,3.045292266962231e-08,0.7060899014473441,2.959158045070936,2.750916517703602,1.0887711445213917,True,0,Conceptual Mode B diagnostic only; not a proof of Birch and Swinnerton-Dyer.
+Hodge,B,topological consistency alignment analogy,CONVERGED_WITHIN_MODEL,487.44370152298904,6.078511267984012e-13,0.9999999999999987,6.379637694783054e-08,3.045292266962231e-08,0.7060899014473441,2.959158045070936,2.750916517703602,1.0887711445213917,True,0,Conceptual Mode B diagnostic only; not a proof of the Hodge conjecture.
+
+
+================================================================================
+SECTION 3: JSON RESULT DATA
+================================================================================
+
+{
+  "master_report_data": {
+    "P_vs_NP": {
+      "label": "P_vs_NP",
+      "mode": "A",
+      "description": "metaphorical dissipation of inconsistent paths",
+      "initial_target_energy": 609.2047049295322,
+      "final_target_energy": 0.47414930009719713,
+      "convergence_rate": 0.9992216913358342,
+      "max_abs_deviation": 0.03101443180456708,
+      "mean_abs_deviation": 0.030783266556448148,
+      "final_mean_real": 0.01256135396887953,
+      "final_mean_imag": 0.006236009039927698,
+      "final_entropy_real": 2.6751801849853387,
+      "final_entropy_imag": 2.6404387610197038,
+      "final_entropy_abs": 0.4512985484754398,
+      "final_fixed_range_phase_entropy": 1.1460562791181397,
+      "monotonic_target_energy": true,
+      "num_energy_increases": 0,
+      "status": "STRONGLY_DISSIPATED_WITHIN_MODEL",
+      "note": "Conceptual Mode A diagnostic only; not a proof of P vs NP."
+    },
+    "Riemann": {
+      "label": "Riemann",
+      "mode": "B",
+      "description": "visual attraction toward Re = 0.5",
+      "initial_target_energy": 487.44370152298904,
+      "final_target_energy": 6.078511267984012e-13,
+      "convergence_rate": 0.9999999999999987,
+      "max_abs_deviation": 6.379637694783054e-08,
+      "mean_abs_deviation": 3.045292266962231e-08,
+      "final_mean_real": 0.5000000000000006,
+      "final_mean_imag": -2.3041576311603417e-09,
+      "final_entropy_real": 0.7060899014473441,
+      "final_entropy_imag": 2.959158045070936,
+      "final_entropy_abs": 2.750916517703602,
+      "final_fixed_range_phase_entropy": 1.0887711445213917,
+      "monotonic_target_energy": true,
+      "num_energy_increases": 0,
+      "status": "CONVERGED_WITHIN_MODEL",
+      "note": "Conceptual Mode B diagnostic only; not a proof of the Riemann Hypothesis."
+    },
+    "Navier_Stokes": {
+      "label": "Navier_Stokes",
+      "mode": "B",
+      "description": "relaxation of informational congestion",
+      "initial_target_energy": 487.44370152298904,
+      "final_target_energy": 6.078511267984012e-13,
+      "convergence_rate": 0.9999999999999987,
+      "max_abs_deviation": 6.379637694783054e-08,
+      "mean_abs_deviation": 3.045292266962231e-08,
+      "final_mean_real": 0.5000000000000006,
+      "final_mean_imag": -2.3041576311603417e-09,
+      "final_entropy_real": 0.7060899014473441,
+      "final_entropy_imag": 2.959158045070936,
+      "final_entropy_abs": 2.750916517703602,
+      "final_fixed_range_phase_entropy": 1.0887711445213917,
+      "monotonic_target_energy": true,
+      "num_energy_increases": 0,
+      "status": "CONVERGED_WITHIN_MODEL",
+      "note": "Conceptual Mode B diagnostic only; not a proof of Navier-Stokes regularity."
+    },
+    "Yang_Mills": {
+      "label": "Yang_Mills",
+      "mode": "B",
+      "description": "structural stabilization analogy",
+      "initial_target_energy": 487.44370152298904,
+      "final_target_energy": 6.078511267984012e-13,
+      "convergence_rate": 0.9999999999999987,
+      "max_abs_deviation": 6.379637694783054e-08,
+      "mean_abs_deviation": 3.045292266962231e-08,
+      "final_mean_real": 0.5000000000000006,
+      "final_mean_imag": -2.3041576311603417e-09,
+      "final_entropy_real": 0.7060899014473441,
+      "final_entropy_imag": 2.959158045070936,
+      "final_entropy_abs": 2.750916517703602,
+      "final_fixed_range_phase_entropy": 1.0887711445213917,
+      "monotonic_target_energy": true,
+      "num_energy_increases": 0,
+      "status": "CONVERGED_WITHIN_MODEL",
+      "note": "Conceptual Mode B diagnostic only; not a proof of Yang-Mills mass gap."
+    },
+    "BSD": {
+      "label": "BSD",
+      "mode": "B",
+      "description": "simplified coherence alignment",
+      "initial_target_energy": 487.44370152298904,
+      "final_target_energy": 6.078511267984012e-13,
+      "convergence_rate": 0.9999999999999987,
+      "max_abs_deviation": 6.379637694783054e-08,
+      "mean_abs_deviation": 3.045292266962231e-08,
+      "final_mean_real": 0.5000000000000006,
+      "final_mean_imag": -2.3041576311603417e-09,
+      "final_entropy_real": 0.7060899014473441,
+      "final_entropy_imag": 2.959158045070936,
+      "final_entropy_abs": 2.750916517703602,
+      "final_fixed_range_phase_entropy": 1.0887711445213917,
+      "monotonic_target_energy": true,
+      "num_energy_increases": 0,
+      "status": "CONVERGED_WITHIN_MODEL",
+      "note": "Conceptual Mode B diagnostic only; not a proof of Birch and Swinnerton-Dyer."
+    },
+    "Hodge": {
+      "label": "Hodge",
+      "mode": "B",
+      "description": "topological consistency alignment analogy",
+      "initial_target_energy": 487.44370152298904,
+      "final_target_energy": 6.078511267984012e-13,
+      "convergence_rate": 0.9999999999999987,
+      "max_abs_deviation": 6.379637694783054e-08,
+      "mean_abs_deviation": 3.045292266962231e-08,
+      "final_mean_real": 0.5000000000000006,
+      "final_mean_imag": -2.3041576311603417e-09,
+      "final_entropy_real": 0.7060899014473441,
+      "final_entropy_imag": 2.959158045070936,
+      "final_entropy_abs": 2.750916517703602,
+      "final_fixed_range_phase_entropy": 1.0887711445213917,
+      "monotonic_target_energy": true,
+      "num_energy_increases": 0,
+      "status": "CONVERGED_WITHIN_MODEL",
+      "note": "Conceptual Mode B diagnostic only; not a proof of the Hodge conjecture."
+    }
+  },
+  "model_verification_results": {
+    "P_vs_NP": {
+      "model_status": "STRONGLY_DISSIPATED_WITHIN_MODEL",
+      "formal_proof": false,
+      "message": "Diagnostic convergence inside the UIM model; not a mathematical proof."
+    },
+    "Riemann": {
+      "model_status": "CONVERGED_WITHIN_MODEL",
+      "formal_proof": false,
+      "message": "Diagnostic convergence inside the UIM model; not a mathematical proof."
+    },
+    "Navier_Stokes": {
+      "model_status": "CONVERGED_WITHIN_MODEL",
+      "formal_proof": false,
+      "message": "Diagnostic convergence inside the UIM model; not a mathematical proof."
+    },
+    "Yang_Mills": {
+      "model_status": "CONVERGED_WITHIN_MODEL",
+      "formal_proof": false,
+      "message": "Diagnostic convergence inside the UIM model; not a mathematical proof."
+    },
+    "BSD": {
+      "model_status": "CONVERGED_WITHIN_MODEL",
+      "formal_proof": false,
+      "message": "Diagnostic convergence inside the UIM model; not a mathematical proof."
+    },
+    "Hodge": {
+      "model_status": "CONVERGED_WITHIN_MODEL",
+      "formal_proof": false,
+      "message": "Diagnostic convergence inside the UIM model; not a mathematical proof."
+    }
+  },
+  "stability_boundary_results": {
+    "P_vs_NP": {
+      "mode": "A",
+      "first_divergent_g": null,
+      "divergence_detected": false,
+      "max_norm_seen": 408.26829403242783,
+      "last_final_energy": 1.4666935819296572,
+      "sweep_note": "No divergence detected in tested g range."
+    },
+    "Riemann": {
+      "mode": "B",
+      "first_divergent_g": null,
+      "divergence_detected": false,
+      "max_norm_seen": 504.76275042961447,
+      "last_final_energy": 1.6839854860313245e-06,
+      "sweep_note": "No divergence detected in tested g range."
+    },
+    "Navier_Stokes": {
+      "mode": "B",
+      "first_divergent_g": null,
+      "divergence_detected": false,
+      "max_norm_seen": 504.76275042961447,
+      "last_final_energy": 1.6839854860313245e-06,
+      "sweep_note": "No divergence detected in tested g range."
+    },
+    "Yang_Mills": {
+      "mode": "B",
+      "first_divergent_g": null,
+      "divergence_detected": false,
+      "max_norm_seen": 504.76275042961447,
+      "last_final_energy": 1.6839854860313245e-06,
+      "sweep_note": "No divergence detected in tested g range."
+    },
+    "BSD": {
+      "mode": "B",
+      "first_divergent_g": null,
+      "divergence_detected": false,
+      "max_norm_seen": 504.76275042961447,
+      "last_final_energy": 1.6839854860313245e-06,
+      "sweep_note": "No divergence detected in tested g range."
+    },
+    "Hodge": {
+      "mode": "B",
+      "first_divergent_g": null,
+      "divergence_detected": false,
+      "max_norm_seen": 504.76275042961447,
+      "last_final_energy": 1.6839854860313245e-06,
+      "sweep_note": "No divergence detected in tested g range."
+    }
+  },
+  "self_check": {
+    "passed": true,
+    "mode_a_fixed_point_error": 0.0,
+    "mode_b_fixed_point_error": 0.0,
+    "deterministic_replay_error": 0.0
+  }
+}
+
+================================================================================
+SECTION 4: SINGLE-OBJECT ARTIFACT METADATA
+================================================================================
+
+{
+  "artifact_name": "UIM v7.5 Runtime Single Object Artifact",
+  "version": "7.5-runtime-single-object",
+  "boundary": "This is a conceptual UIM simulation artifact, not a mathematical proof. It does not prove, solve, or resolve any Millennium Prize Problem.",
+  "source_files_combined": {
+    "master_report_txt": "uim_v7_5_runtime_master_report.txt",
+    "results_csv": "uim_v7_5_runtime_results.csv",
+    "results_json": "uim_v7_5_runtime_results.json",
+    "energy_plot_png": "uim_v7_5_runtime_energy_plot.png"
+  },
+  "embedded_energy_plot_png_base64_length": 120468
+}
+
+================================================================================
+SECTION 5: ENERGY PLOT REFERENCE
+================================================================================
+
+Energy plot PNG file: uim_v7_5_single_object_restored_energy_plot.png
+File size bytes: 90351
+
+
+================================================================================
+END OF DOCUMENT
+================================================================================
 
 
 if __name__ == "__main__":
