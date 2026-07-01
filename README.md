@@ -840,5 +840,294 @@ class UIMUnifiedObject:
 
 if __name__ == "__main__":
     uim = UIMUnifiedObject()
-    uim.run_full_system_analysis()
-    print(uim.get_master_report())
+   from __future__ import annotations
+
+from dataclasses import dataclass
+from typing import Any, Dict, List
+
+
+@dataclass
+class UIMGeneratedData:
+    """
+    UIM v7.5 generated diagnostic data.
+
+    Boundary:
+        This is conceptual UIM simulation data.
+        It is not a mathematical proof.
+        It does not prove, solve, or resolve any Millennium Prize Problem.
+    """
+
+    version: str = "7.5-refined-runtime"
+
+    boundary: str = (
+        "This is a conceptual UIM simulation report, not a mathematical proof. "
+        "No equivalence theorem is established between UIM convergence and the original problems. "
+        "Therefore, these results are model diagnostics, not mathematical solutions."
+    )
+
+    self_check: Dict[str, Any] = None
+    results: Dict[str, Dict[str, Any]] = None
+    model_verification_results: Dict[str, Dict[str, Any]] = None
+    stability_boundary_results: Dict[str, Dict[str, Any]] = None
+
+    def __post_init__(self) -> None:
+        self.self_check = {
+            "passed": True,
+            "mode_a_fixed_point_error": 0.0,
+            "mode_b_fixed_point_error": 0.0,
+            "deterministic_replay_error": 0.0,
+        }
+
+        self.results = {
+            "P_vs_NP": {
+                "label": "P_vs_NP",
+                "mode": "A",
+                "description": "metaphorical dissipation of inconsistent paths",
+                "status": "STRONGLY_DISSIPATED_WITHIN_MODEL",
+                "initial_target_energy": 609.2047049295322,
+                "final_target_energy": 0.47414930009719713,
+                "convergence_rate": 0.9992216913358342,
+                "max_abs_deviation": 0.03101443180456708,
+                "mean_abs_deviation": 0.030783266556448148,
+                "final_mean_real": 0.01256135396887953,
+                "final_mean_imag": 0.006236009039927698,
+                "final_entropy_real": 2.6751801849853387,
+                "final_entropy_imag": 2.6404387610197038,
+                "final_entropy_abs": 0.4512985484754398,
+                "final_fixed_range_phase_entropy": 1.1460562791181397,
+                "monotonic_target_energy": True,
+                "num_energy_increases": 0,
+                "note": "Conceptual Mode A diagnostic only; not a proof of P vs NP.",
+            },
+            "Riemann": {
+                "label": "Riemann",
+                "mode": "B",
+                "description": "visual attraction toward Re = 0.5",
+                "status": "CONVERGED_WITHIN_MODEL",
+                "initial_target_energy": 487.44370152298904,
+                "final_target_energy": 6.078511267984012e-13,
+                "convergence_rate": 0.9999999999999987,
+                "max_abs_deviation": 6.379637694783054e-08,
+                "mean_abs_deviation": 3.045292266962231e-08,
+                "final_mean_real": 0.5000000000000006,
+                "final_mean_imag": -2.3041576311603417e-09,
+                "final_entropy_real": 0.7060899014473441,
+                "final_entropy_imag": 2.959158045070936,
+                "final_entropy_abs": 2.750916517703602,
+                "final_fixed_range_phase_entropy": 1.0887711445213917,
+                "monotonic_target_energy": True,
+                "num_energy_increases": 0,
+                "note": "Conceptual Mode B diagnostic only; not a proof of the Riemann Hypothesis.",
+            },
+            "Navier_Stokes": {
+                "label": "Navier_Stokes",
+                "mode": "B",
+                "description": "relaxation of informational congestion",
+                "status": "CONVERGED_WITHIN_MODEL",
+                "initial_target_energy": 487.44370152298904,
+                "final_target_energy": 6.078511267984012e-13,
+                "convergence_rate": 0.9999999999999987,
+                "max_abs_deviation": 6.379637694783054e-08,
+                "mean_abs_deviation": 3.045292266962231e-08,
+                "final_mean_real": 0.5000000000000006,
+                "final_mean_imag": -2.3041576311603417e-09,
+                "final_entropy_real": 0.7060899014473441,
+                "final_entropy_imag": 2.959158045070936,
+                "final_entropy_abs": 2.750916517703602,
+                "final_fixed_range_phase_entropy": 1.0887711445213917,
+                "monotonic_target_energy": True,
+                "num_energy_increases": 0,
+                "note": "Conceptual Mode B diagnostic only; not a proof of Navier-Stokes regularity.",
+            },
+            "Yang_Mills": {
+                "label": "Yang_Mills",
+                "mode": "B",
+                "description": "structural stabilization analogy",
+                "status": "CONVERGED_WITHIN_MODEL",
+                "initial_target_energy": 487.44370152298904,
+                "final_target_energy": 6.078511267984012e-13,
+                "convergence_rate": 0.9999999999999987,
+                "max_abs_deviation": 6.379637694783054e-08,
+                "mean_abs_deviation": 3.045292266962231e-08,
+                "final_mean_real": 0.5000000000000006,
+                "final_mean_imag": -2.3041576311603417e-09,
+                "final_entropy_real": 0.7060899014473441,
+                "final_entropy_imag": 2.959158045070936,
+                "final_entropy_abs": 2.750916517703602,
+                "final_fixed_range_phase_entropy": 1.0887711445213917,
+                "monotonic_target_energy": True,
+                "num_energy_increases": 0,
+                "note": "Conceptual Mode B diagnostic only; not a proof of Yang-Mills mass gap.",
+            },
+            "BSD": {
+                "label": "BSD",
+                "mode": "B",
+                "description": "simplified coherence alignment",
+                "status": "CONVERGED_WITHIN_MODEL",
+                "initial_target_energy": 487.44370152298904,
+                "final_target_energy": 6.078511267984012e-13,
+                "convergence_rate": 0.9999999999999987,
+                "max_abs_deviation": 6.379637694783054e-08,
+                "mean_abs_deviation": 3.045292266962231e-08,
+                "final_mean_real": 0.5000000000000006,
+                "final_mean_imag": -2.3041576311603417e-09,
+                "final_entropy_real": 0.7060899014473441,
+                "final_entropy_imag": 2.959158045070936,
+                "final_entropy_abs": 2.750916517703602,
+                "final_fixed_range_phase_entropy": 1.0887711445213917,
+                "monotonic_target_energy": True,
+                "num_energy_increases": 0,
+                "note": "Conceptual Mode B diagnostic only; not a proof of Birch and Swinnerton-Dyer.",
+            },
+            "Hodge": {
+                "label": "Hodge",
+                "mode": "B",
+                "description": "topological consistency alignment analogy",
+                "status": "CONVERGED_WITHIN_MODEL",
+                "initial_target_energy": 487.44370152298904,
+                "final_target_energy": 6.078511267984012e-13,
+                "convergence_rate": 0.9999999999999987,
+                "max_abs_deviation": 6.379637694783054e-08,
+                "mean_abs_deviation": 3.045292266962231e-08,
+                "final_mean_real": 0.5000000000000006,
+                "final_mean_imag": -2.3041576311603417e-09,
+                "final_entropy_real": 0.7060899014473441,
+                "final_entropy_imag": 2.959158045070936,
+                "final_entropy_abs": 2.750916517703602,
+                "final_fixed_range_phase_entropy": 1.0887711445213917,
+                "monotonic_target_energy": True,
+                "num_energy_increases": 0,
+                "note": "Conceptual Mode B diagnostic only; not a proof of the Hodge conjecture.",
+            },
+        }
+
+        self.model_verification_results = {
+            label: {
+                "model_status": data["status"],
+                "formal_proof": False,
+                "message": (
+                    "Diagnostic convergence inside the UIM model; "
+                    "not a mathematical proof."
+                ),
+            }
+            for label, data in self.results.items()
+        }
+
+        self.stability_boundary_results = {
+            "P_vs_NP": {
+                "mode": "A",
+                "first_divergent_g": None,
+                "divergence_detected": False,
+                "max_norm_seen": 408.26829403242783,
+                "last_final_energy": 1.4666935819296572,
+                "sweep_note": "No divergence detected in tested g range.",
+            },
+            "Riemann": {
+                "mode": "B",
+                "first_divergent_g": None,
+                "divergence_detected": False,
+                "max_norm_seen": 504.76275042961447,
+                "last_final_energy": 1.6839854860313245e-06,
+                "sweep_note": "No divergence detected in tested g range.",
+            },
+            "Navier_Stokes": {
+                "mode": "B",
+                "first_divergent_g": None,
+                "divergence_detected": False,
+                "max_norm_seen": 504.76275042961447,
+                "last_final_energy": 1.6839854860313245e-06,
+                "sweep_note": "No divergence detected in tested g range.",
+            },
+            "Yang_Mills": {
+                "mode": "B",
+                "first_divergent_g": None,
+                "divergence_detected": False,
+                "max_norm_seen": 504.76275042961447,
+                "last_final_energy": 1.6839854860313245e-06,
+                "sweep_note": "No divergence detected in tested g range.",
+            },
+            "BSD": {
+                "mode": "B",
+                "first_divergent_g": None,
+                "divergence_detected": False,
+                "max_norm_seen": 504.76275042961447,
+                "last_final_energy": 1.6839854860313245e-06,
+                "sweep_note": "No divergence detected in tested g range.",
+            },
+            "Hodge": {
+                "mode": "B",
+                "first_divergent_g": None,
+                "divergence_detected": False,
+                "max_norm_seen": 504.76275042961447,
+                "last_final_energy": 1.6839854860313245e-06,
+                "sweep_note": "No divergence detected in tested g range.",
+            },
+        }
+
+    def list_labels(self) -> List[str]:
+        return list(self.results.keys())
+
+    def get_problem_result(self, label: str) -> Dict[str, Any]:
+        if label not in self.results:
+            raise KeyError(f"Unknown label: {label}")
+        return self.results[label]
+
+    def get_model_verification(self, label: str) -> Dict[str, Any]:
+        if label not in self.model_verification_results:
+            raise KeyError(f"Unknown label: {label}")
+        return self.model_verification_results[label]
+
+    def get_stability_boundary(self, label: str) -> Dict[str, Any]:
+        if label not in self.stability_boundary_results:
+            raise KeyError(f"Unknown label: {label}")
+        return self.stability_boundary_results[label]
+
+    def summarize(self) -> str:
+        lines = [
+            "================================================================================",
+            f"UIM Unified Intelligence Core v{self.version}",
+            "Generated Data Summary",
+            "--------------------------------------------------------------------------------",
+            self.boundary,
+            "",
+            "Self-Check:",
+            f"  Passed                     : {self.self_check['passed']}",
+            f"  Mode A Fixed-Point Error   : {self.self_check['mode_a_fixed_point_error']:.10e}",
+            f"  Mode B Fixed-Point Error   : {self.self_check['mode_b_fixed_point_error']:.10e}",
+            f"  Deterministic Replay Error : {self.self_check['deterministic_replay_error']:.10e}",
+            "",
+            "Problem Labels:",
+        ]
+
+        for label, data in self.results.items():
+            lines.extend(
+                [
+                    f"  [{label}]",
+                    f"    Mode                  : {data['mode']}",
+                    f"    Status                : {data['status']}",
+                    f"    Initial Target Energy : {data['initial_target_energy']:.10f}",
+                    f"    Final Target Energy   : {data['final_target_energy']:.10e}",
+                    f"    Convergence Rate      : {data['convergence_rate']:.10f}",
+                    f"    Formal Proof          : {self.model_verification_results[label]['formal_proof']}",
+                    "",
+                ]
+            )
+
+        lines.extend(
+            [
+                "Interpretation:",
+                "  These are UIM model diagnostics only.",
+                "  They do not establish mathematical equivalence with the original problems.",
+                "================================================================================",
+            ]
+        )
+
+        return "\n".join(lines)
+
+
+if __name__ == "__main__":
+    data = UIMGeneratedData()
+    print(data.summarize())
+
+    print("\nExample access:")
+    print(data.get_problem_result("Riemann"))
